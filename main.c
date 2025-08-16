@@ -137,6 +137,6 @@ int main() {
     printf("--- Movimento do Bispo (loops aninhados) ---\n");
     moveBishopLoops();
     printf("\n");
-
-    return 0;
+    system("pause"); // Pausa para visualizar a saída antes de fechar o console
+    return 0; // Retorna 0 para indicar que o programa terminou corretamente.
 }
